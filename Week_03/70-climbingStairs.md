@@ -28,9 +28,3 @@ class Solution {
         return $this->climbStairs($n - 1) + $this->climbStairs($n - 2);
     }
 }
-
-```
-
-#### 递归2（保存状态）
-
-``` 
